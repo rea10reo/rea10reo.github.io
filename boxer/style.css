@@ -1,0 +1,13 @@
+@font-face{font-family:'Press Start 2P';src:url(PressStart2P.woff2) format('woff2')}
+@font-face{font-family:'VT323';src:url(VT323.woff2) format('woff2')}
+:root{--bg:#0d0a1a;--panel:#1c1533;--line:#3a2f5c;--ink:#f4ecd8;--muted:#a397c4;--gold:#ffcc33;--red:#ff4048;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'VT323',ui-monospace,monospace;font-size:22px;line-height:1.25}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
+.logo{font-family:'Press Start 2P',monospace;font-size:34px;color:var(--gold);text-shadow:4px 4px 0 var(--red),7px 7px 0 #000;margin:8px 0 4px;text-decoration:none;display:inline-block}
+h1{font-family:'Press Start 2P',monospace;font-size:16px;line-height:1.6;color:var(--gold);margin:28px 0 8px}
+h2{font-family:'Press Start 2P',monospace;font-size:12px;line-height:1.6;color:var(--ink);margin:28px 0 6px}
+p,li{color:var(--ink)} .muted{color:var(--muted)}
+a{color:var(--gold)}
+.card{background:var(--panel);border:2px solid var(--line);padding:4px 18px;margin:16px 0}
+nav{display:flex;gap:18px;margin-top:8px}
